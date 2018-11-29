@@ -4,8 +4,8 @@ import {Route, withRouter} from 'react-router-dom';
 
 import HeaderBar from './header-bar';
 import HomePage from './home-page';
-import Dashboard from './dashboard';
-import RegistrationPage from './registration-page';
+import ProjectsPage from './projects-page';
+import ResumePage from './resume-page';
 import {refreshAuthToken} from '../actions/auth';
 
 export class App extends React.Component {
@@ -44,8 +44,8 @@ export class App extends React.Component {
                 <HeaderBar />
 
                 <Route exact path="/" component={HomePage} />
-                <Route exact path="/dashboard" component={Dashboard} />
-                <Route exact path="/register" component={RegistrationPage} />
+                <Route exact path="/projects" component={ProjectsPage} />
+                <Route exact path="/Resume" component={ResumePage} />
             </div>
         );
     }

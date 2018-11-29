@@ -17,4 +17,21 @@ body {
   padding: 0;
   font-family: 'Open Sans Condensed', sans-serif;
   background-color: black;
+  overflow: auto;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #FFF;
+}
+
+::-webkit-scrollbar-thumb:hover, ::-webkit-scrollbar-thumb:active {
+  background: rgb(196, 196, 196); 
 }

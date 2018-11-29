@@ -1,0 +1,117 @@
+.resume-page {
+  width: 100%;
+  padding-top: 180px;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.resume-page a {
+  text-decoration: underline;
+}
+
+.resume-download-link {
+  font-size: 18px;
+}
+
+.resume-document {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  width: 50%;
+  text-align: left;
+  padding: 10px;
+}
+
+.resume-contact {
+  width: 49%;
+}
+
+.resume-section {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.resume-name, .resume-profession, .resume-section-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.resume-section-title {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.resume-links {
+  width: 49%;
+  text-align: right;
+}
+
+.resume-project {
+  margin-bottom: 20px;
+}
+
+.project-stack {
+  float: right;
+  text-align: right;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+@media (max-width: 1300px) {
+  .resume-document {
+    width: 70%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .resume-document {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .resume-section-title {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 670px) {
+  .resume-document {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .resume-name, .resume-profession {
+    font-size: 16px;
+  }
+
+  .resume-section-title {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 500px) {
+  .resume-document {
+    width: 100%;
+    font-size: 9px;
+  }
+
+  .resume-name, .resume-profession {
+    font-size: 12px;
+  }
+
+  .resume-section-title {
+    font-size: 12px;
+  }
+
+  .resume-contact {
+    width: 33%;
+  }
+
+  .resume-links {
+    width: 66%;
+  }
+}
