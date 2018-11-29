@@ -1,0 +1,31 @@
+.header-bar {
+  width: 100%;
+  text-align: center;
+  color: white;
+  position: fixed;
+  background-color: black;
+}
+
+.header-name, .header-company, .logo {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+}
+
+.header-name, .header-company {
+  font-size: 32px;
+}
+
+.header-company {
+  font-weight: bold;
+}
+
+.logo {
+  width: 120px;
+  margin: 0 40px;
+}
+
+.header-name:hover, .header-company:hover {
+  transform: scale(1.2);
+}
