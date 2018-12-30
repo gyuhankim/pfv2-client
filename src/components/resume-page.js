@@ -12,7 +12,7 @@ export class ResumePage extends React.Component {
           <div className="resume-page">
 
           <div className="resume-download-link">
-            <a href={resume} target='_blank'>Download PDF</a>
+            <a href={resume} target='_blank' id="resume-download-link-text">Download PDF</a>
           </div>
 
           <div className="resume-document">
@@ -22,6 +22,7 @@ export class ResumePage extends React.Component {
               <a href="mailto:gyuhankim@gmail.com" target="_blank" rel="noopener noreferrer">gyuhankim@gmail.com</a>
               <p>Atlanta, GA</p>
             </div>
+
 
             <div className="resume-links">
               <p className="resume-profession">FULL STACK WEB DEVELOPER</p>

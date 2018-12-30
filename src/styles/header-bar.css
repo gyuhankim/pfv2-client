@@ -4,17 +4,19 @@
   color: white;
   position: fixed;
   background-color: black;
+  font-size: 32px;
 }
 
-.header-name, .header-company, .logo {
+.header-link, .logo {
   display: inline-block;
   margin: 0;
   padding: 0;
   vertical-align: middle;
+  width: 100px;
 }
 
-.header-name, .header-company {
-  font-size: 32px;
+.header-link {
+  margin: 0 20px;
 }
 
 .header-company {
@@ -23,9 +25,9 @@
 
 .logo {
   width: 120px;
-  margin: 0 40px;
+  margin: 0 20px;
 }
 
-.header-name:hover, .header-company:hover {
+.header-link:hover {
   transform: scale(1.2);
 }

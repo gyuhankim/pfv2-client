@@ -1,36 +1,35 @@
 .resume-page {
   width: 100%;
-  padding-top: 180px;
+  padding-top: 140px;
   margin: 0 auto;
-  color: white;
   text-align: center;
   font-family: 'Roboto', sans-serif;
+  background-color: white;
+}
+
+#resume-download-link-text {
+  font-size: 18px;
+  color: black;
 }
 
 .resume-page a {
   text-decoration: underline;
-}
-
-.resume-download-link {
-  font-size: 18px;
+  color: black;
 }
 
 .resume-document {
   display: flex;
   flex-wrap: wrap;
   margin: 20px auto;
-  width: 50%;
+  width: 60%;
   text-align: left;
-  padding: 10px;
+  padding: 20px;
+  color: black;
+  background-color: white;
 }
 
 .resume-contact {
   width: 49%;
-}
-
-.resume-section {
-  width: 100%;
-  margin: 20px 0;
 }
 
 .resume-name, .resume-profession, .resume-section-title {
@@ -50,6 +49,11 @@
 
 .resume-project {
   margin-bottom: 20px;
+}
+
+.resume-section {
+  width: 100%;
+  padding: 20px;
 }
 
 .project-stack {

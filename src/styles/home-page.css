@@ -14,10 +14,35 @@
   font-size: 24px;
 }
 
-.hypepotamus-logo {
-  width: 300px;
+.bold {
+  font-weight: bold;
 }
 
 .bg-image {
   width: 100%;
+}
+
+.home-skills {
+  width: 33%;
+  display: inline-block;
+  border: 1px solid white;
+}
+
+.home-skills-header {
+  padding-top: 10px;
+  background-color: white;
+  color: black;
+}
+
+.contact-list {
+  margin-top: 20px;
+}
+
+.contact-list-item {
+  margin: 10px 0;
+}
+
+.contact-link {
+  font-size: 20px;
+  margin-left: 20px;
 }

@@ -7,9 +7,17 @@ h1 {
   margin: 0;
 }
 
+h3 {
+  margin: 0;
+}
+
 a {
   text-decoration: none;
   color: white;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 body {
@@ -17,7 +25,7 @@ body {
   padding: 0;
   font-family: 'Open Sans Condensed', sans-serif;
   background-color: black;
-  overflow: auto;
+  overflow-y: scroll;
 }
 
 ::-webkit-scrollbar {

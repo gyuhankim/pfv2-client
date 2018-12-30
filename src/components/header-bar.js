@@ -18,9 +18,24 @@ export class HeaderBar extends React.Component {
 
         return (
             <div className="header-bar">
-                <Link to="/resume" className="header-name">Joseph Kim</Link>
+                <div className="header-link">      
+                    <Link to="/" className="header-home">Home</Link>
+                </div>
+
+                <div className="header-link">
+                    <Link to="/resume" className="header-resume">Résumé</Link>
+                </div>
+
                 <Link to="/"><img className="logo" src={logo} /></Link>
-                <Link to="/projects" className="header-company">IRNWRKS</Link>
+
+                <div className="header-link">
+                    <Link to="/projects" className="header-projects">Projects</Link>
+                </div>
+
+                <div className="header-link">
+                    <a href="https://www.ironworksdigital.com" className="header-company">IRNWRKS</a>
+                </div>    
+                
             </div>
         );
     }

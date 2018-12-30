@@ -5,3 +5,35 @@
   color: white;
   text-align: center;
 }
+
+.projects-grid {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.projects-project {
+  flex: 0 0 31%;
+  margin: 10px;
+  background-color: white;
+  color: black;
+  box-shadow: 4px 4px 2px 0 rgb(255, 255, 255, .5);
+}
+
+.projects-project:hover {
+  transform: scale(1.05);
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 6px 6px 2px 0 rgb(255, 255, 255, .5);
+}
+
+.projects-project-thumbnail {
+  width: 100%;
+}
+
+.projects-project-title {
+  margin: 10px;
+  font-weight: normal;
+}
